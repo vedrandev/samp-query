@@ -12,8 +12,6 @@ export type SAMP_INFO = {
 
 
 class Query {
-
-    
     public static async serverInfo(hostname: any, port?: number): Promise<SAMP_INFO> {
         if (port === undefined) {
             port = 7777;
