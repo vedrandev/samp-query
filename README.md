@@ -10,6 +10,12 @@ cd samp-query
 npm install
 ```
 
+## Build
+```
+cd src
+tsc samp-query.ts
+```
+
 ## Usage
 
 ```
@@ -20,7 +26,7 @@ console.log('Server name: ', info.hostname);
 
 ## Example
 ```
-import { Query, SAMP_INFO }from "./src/samp-query";
+import { Query, SAMP_INFO } from "./src/samp-query";
 
 class Test {
     public static async test() {
