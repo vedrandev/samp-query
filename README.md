@@ -10,6 +10,12 @@ cd samp-query
 npm install
 ```
 
+## Build
+```
+cd src
+tsc samp-query.ts
+```
+
 ## Usage
 
 ```
