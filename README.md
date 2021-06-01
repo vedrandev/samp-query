@@ -26,7 +26,7 @@ console.log('Server name: ', info.hostname);
 
 ## Example
 ```
-import { Query, SAMP_INFO }from "./src/samp-query";
+import { Query, SAMP_INFO } from "./src/samp-query";
 
 class Test {
     public static async test() {
